@@ -318,7 +318,10 @@ header#home ul li a {
 }
 
 /* ------------------------------------ABOUT------------------------------------*/
-
+.my-letter{
+  letter-spacing: 2px;
+  font-size: 14px;
+}
 .about-left figure img {
   padding-left: 30px;
 }
@@ -654,8 +657,13 @@ header:not(#home) h2:after {
 }
 /* ----------------------------customer---------------------------------- */
 
+.customer p{
+  font-weight: 600;
+
+}
 .customer span{
-  font-weight: 900;
+  font-weight: 800;
+  font-size: 30px;
 }
 
 /* ----------------------------Team---------------------------------- */
