@@ -1,0 +1,93 @@
+@media (max-width: 991.98px) {
+  /* md */
+  .navbar-collapse {
+    padding-top: 15px;
+  }
+  .navbar-nav li > a {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+  }
+  nav .navbar-nav .nav-link.active {
+    padding-block: 10px;
+    width: 95%;
+    padding: 5px !important;
+    background-color: rgba(168, 163, 163, 0.5);
+    transform: translateX(5px);
+    -webkit-transform: translateX(5px);
+    -moz-transform: translateX(5px);
+    -ms-transform: translateX(5px);
+    -o-transform: translateX(5px);
+  }
+  nav .navbar-nav .nav-link.active::after {
+    background-color: transparent;
+  }
+  .navbar-toggler {
+    border: 0;
+  }
+  .navbar-toggler:focus {
+    box-shadow: transparent 0 0 0 0;
+  }
+  @keyframes scroll-transition {
+    0% {
+      background-color: transparent;
+    }
+    0.1111111111111111% {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    100% {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  }
+/* ----------------Portfolio----------------- */
+
+.carousel-control-prev {
+    left: -100px;
+}
+.carousel-control-next {
+    right: -100px;
+}
+}
+
+@media (max-width: 575.98px) {
+  /* xs */
+
+  
+  header#home > div span {
+    font-size: 2rem;
+  }
+  .typing {
+    font-size: 2rem;
+  }
+  /* ---------- */
+
+  .about-btn{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+  }
+  /* ------------------ */
+  .carousel-control-prev {
+    left: 0px;
+    top: 55%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.carousel-control-next {
+    right: 0px;
+    top: 55%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+#portfolio .btn-close{
+    left: 90%;
+}
+}
