@@ -76,7 +76,7 @@ nav .navbar-nav .nav-link.active::after {
 header#home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../imgs/bg.jpg);
-  background-position: center center;
+  background-position: 0px 0px;
   background-size: cover;
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
